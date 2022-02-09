@@ -1,5 +1,5 @@
 import gameEngine from '../index.js';
-import getRandomInt from '../utils.js';
+import { getRandomInt } from '../utils.js';
 
 const PROGRESSION_MAX_START_NUMBER = 30;
 const PROGRESSION_MAX_STEP = 10;
