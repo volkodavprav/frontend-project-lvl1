@@ -4,7 +4,7 @@ import readlineSync from 'readline-sync';
 import askName from '../src/cli.js';
 
 const MAX_RANDOM_NUMBER = 100;
-const MAX_CORRECT_ANSWERS = 100;
+const MAX_CORRECT_ANSWERS = 3;
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -26,7 +26,7 @@ function brainEvenGame() {
     console.log(`Question: ${randomNumber}`);
     const answer = readlineSync.question('Your answer: ');
 
-    if ((isEven(randomNumber) && answer === 'yes') || (!isEven(randomNumber) && answer === 'no')) {
+    if ((isEven(randomNumber) && (answer === 'yes')) || (!isEven(randomNumber) && (answer === 'no'))) {
       correctAnswersCount += 1;
       console.log('Correct!');
     } else if (isEven(randomNumber)) {
@@ -39,7 +39,7 @@ function brainEvenGame() {
   }
 
   if (correctAnswersCount === MAX_CORRECT_ANSWERS) {
-    console.log(`Congratulations, ${userName}`);
+    console.log(`Congratulations, ${userName}!`);
   }
 }
 
