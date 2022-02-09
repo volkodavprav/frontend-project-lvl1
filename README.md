@@ -7,4 +7,4 @@
 [![lint](https://github.com/volkodavprav/frontend-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/volkodavprav/frontend-project-lvl1/actions)
 
 ### Brain-even:
-[![brain-even](https://asciinema.org/a/L5Pm17ltvDxSFAoBLVNjwt4MY)
+[![asciicast](https://asciinema.org/a/L5Pm17ltvDxSFAoBLVNjwt4MY.svg)](https://asciinema.org/a/L5Pm17ltvDxSFAoBLVNjwt4MY)
