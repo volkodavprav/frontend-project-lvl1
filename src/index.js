@@ -13,7 +13,7 @@ const gameEngine = (gameDescription, gameLogic) => {
     console.log(gameQuestion);
     const answer = question('Your answer: ');
 
-    if (answer === correctAnswer) {
+    if (answer === correctAnswer.toString()) {
       console.log('Correct!');
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!`);

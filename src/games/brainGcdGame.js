@@ -15,7 +15,7 @@ const gcdGameLogic = () => {
   const randomNumber1 = getRandomInt();
   const randomNumber2 = getRandomInt();
   const gameQuestion = (`Question: ${randomNumber1} ${randomNumber2}`);
-  const correctAnswer = getGcd(randomNumber1, randomNumber2).toString();
+  const correctAnswer = getGcd(randomNumber1, randomNumber2);
 
   return [gameQuestion, correctAnswer];
 };

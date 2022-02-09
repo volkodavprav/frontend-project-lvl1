@@ -30,7 +30,7 @@ const calcGameLogic = () => {
   const operator = getRandomOperator();
 
   const gameQuestion = (`Question: ${randomNumber1} ${operator} ${randomNumber2}`);
-  const correctAnswer = getCorrectAnswer(operator, randomNumber1, randomNumber2).toString();
+  const correctAnswer = getCorrectAnswer(operator, randomNumber1, randomNumber2);
 
   return [gameQuestion, correctAnswer];
 };
